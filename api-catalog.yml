@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: api-catalog
+  data:
+    mongodb:
+      database: catalog
+      port: 27019
+
 
 info:
   application:
