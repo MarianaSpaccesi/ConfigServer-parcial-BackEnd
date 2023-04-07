@@ -8,6 +8,9 @@ spring:
     mongodb:
       database: catalog
       port: 27019
+      authentication-database: admin
+      username: user
+      password: password
 
 
 info:
